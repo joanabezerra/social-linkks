@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #FAF7FD;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* Sessão Foto */
+
+#foto-insta {
+    width: 28%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#borda {
+    border: 2px solid #BB99DD;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+    padding: 5px;
+}
+
+#foto {
+    background-image: url(../assets/foto-perfil-original_cropped_resized.jpg);
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 180px;
+}
+
+#insta {
+    text-align: center;
+    color: #BB99DD;
+    font-size: 16px;
+    padding: 20px;
+}
+
+/* Sessão Links */
+.links {
+    width: 42%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.links ul {
+    list-style: none;
+}
+
+.links ul li {
+    margin-bottom: 60px;
+}
+
+.links a {
+    padding: 20px 130px;
+    text-decoration: none;
+    color: #bb99dd;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 3px solid #bb99dd;
+    border-radius: 8px;
+}
+
+/* Sessão Redes Sociais */
+
+.icones-redes {
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
